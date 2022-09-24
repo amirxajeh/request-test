@@ -5,7 +5,7 @@ const req = async () => {
 
     for (let i = 0; i < 1000; i++) {
 
-      await axios.get("https://formx.khamenei.link/intro/get-updates")
+      await axios.get("")
       console.log(i)
     }
 
